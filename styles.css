@@ -1,0 +1,240 @@
+body {
+  background-color: #eee;
+  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+  linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px; */
+  font-family: 'Didot', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  box-sizing: border-box;
+  padding: 0px 25px;
+  background-color: #333333;
+  height: 160px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+main {
+    padding: 160px 15px 0px 15px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#CE1919, #35A419, #D4C62F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+h2 {
+  color: #444444;
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px 0px 5px 0px;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*Top row of header with more bands & dropdown icon*/
+.profile-container {
+height: 60px;
+padding-right: 5px;
+text-align: right;
+}
+
+.profile-container a {
+  line-height: 60px;
+  text-align: right;
+  vertical-align: middle;
+  background: -webkit-linear-gradient(#CE1919, #35A419, #D4C62F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+}
+
+.profile-container img {
+  display: inline-block;
+  padding-bottom: 3px;
+  padding-right: 8px;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.profile:hover {
+  color: white;
+}
+
+
+/*Area with navigation items*/
+nav {
+  align-items: flex-end;
+  display: flex;
+  padding-top: 15px;
+}
+
+ul {
+  align-items: flex-end;
+  display: flex;
+  flex: 2;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  background: -webkit-linear-gradient(#CE1919, #35A419, #D4C62F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  margin: 0;
+  padding: 0px 55px 0px 0px;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: #2bb5fe;
+}
+
+li a img {
+  height: 20px;
+  padding-bottom: 3px;
+  padding-right: 12px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.active {
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-container img {
+  height: 40px;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  width: 150px;
+}
+
+
+/*General styling for cards on main area of page*/
+.card {
+  background-color: white;
+  filter: drop-shadow(0 0 3px #878787);
+  height: 460px;
+  margin: 0px 15px 15px 0px;
+  max-width: 325px;
+  min-width: 23.5%;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 6px #049e9a);
+}
+
+.card-header {
+  background-size: 100% 225px;
+  background-repeat: no-repeat;
+  color: white;
+  height: 165px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+/*Card background images*/
+.card1 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.billboard.com/files/media/streetlight-manifesto-2019-cr-Brian-Kloc-billboard-1500x845-768x433.jpg");
+}
+
+.card2 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.nme.com/wp-content/uploads/2016/09/2015TheSpecials_Getty455658832230315.jpg");
+}
+
+.card3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://media2.fdncms.com/sacurrent/imager/u/original/19487961/reel_big_fish_courtesy.jpg");
+}
+
+.card4 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.uncut.co.uk/wp-content/uploads/2019/11/GettyImages-1181595728.jpg");
+}
+
+.card5 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://media.stubhubstatic.com/stubhub-catalog/d_defaultLogo.jpg/t_f-fs-0fv,q_auto:low,f_auto,c_fill,dpr_2.0,$w_750,$h_416/performer/738297/fe4kprwmtwcgzjukyn1t");
+}
+
+.card6 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.ocregister.com/wp-content/uploads/2018/08/0817_FEA_OCR-L-AQUABATS2-1.jpg");
+}
+
+.card7 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://seatgeek.com/images/performers-landscape/mustard-plug-ae440d/7285/1200x525.jpg");
+}
+
+.card8 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://cleorecs.com/home/wp-content/uploads/buck-e1556199816276.jpeg");
+}
+
+/*Bottom half of each card with details*/
+.card-info {
+  padding: 15px 20px;
+}
+
+.hometown-name {
+  color: #444444;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 5px 0px 18px 0px;
+}
+.link-container {
+  background-color: #ededed;
+  margin: 20px 0px;
+  padding: 3px 20px 3px 10px;
+}
+
+.link-txt {
+  color: grey;
+  font-size: 13px;
+  font-weight: 400;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.album-count {
+  background: -webkit-linear-gradient(#CE1919, #35A419, #D4C62F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  margin: 0px;
+}
