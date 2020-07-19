@@ -1,9 +1,6 @@
 body {
-  background-color: #eee;
-  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-  linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
-  background-size: 60px 60px;
-  background-position: 0 0, 30px 30px; */
+  background: rgb(195,34,34);
+  background: linear-gradient(0deg, rgba(195,34,34,0.5858544101234244) 10%, rgba(133,253,45,0.5466387238489145) 71%);
   font-family: 'Didot', sans-serif;
   font-weight: 400;
 }
@@ -11,7 +8,7 @@ body {
 header {
   box-sizing: border-box;
   padding: 0px 25px;
-  background-color: #333333;
+  background-color: white;
   height: 160px;
   position: fixed;
   width: 100%;
@@ -29,9 +26,7 @@ section {
 }
 
 h1 {
-  background: -webkit-linear-gradient(#CE1919, #35A419, #D4C62F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-size: 45px;
   font-weight: 300;
   margin-left: 8px;
@@ -119,10 +114,6 @@ li a {
   text-transform: uppercase;
 }
 
-li a:hover {
-  color: #2bb5fe;
-}
-
 li a img {
   height: 20px;
   padding-bottom: 3px;
@@ -141,7 +132,7 @@ li a img {
 }
 
 .logo-container img {
-  height: 40px;
+  height: 70px;
   justify-content: flex-end;
   padding-bottom: 5px;
   padding-right: 10px;
