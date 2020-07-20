@@ -289,7 +289,11 @@ li a img {
     align-items: flex-start;
     background-color: white;
     flex-direction: column;
+<<<<<<< HEAD
     height: 100px;
+=======
+    height: 175px;
+>>>>>>> f91ad5131b770edde3b4d76614dcc893987ca505
     width: 680px;
     left: -25px;
     padding-top: 20px;
@@ -299,7 +303,10 @@ li a img {
     z-index: 1;
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f91ad5131b770edde3b4d76614dcc893987ca505
   li a {
     font-size: 22px;
     padding: 2px 0px 30px 30px;
