@@ -27,6 +27,7 @@ section {
 
 h1 {
   color: black;
+  text-shadow: #FC0 1px 0 10px;
   font-size: 45px;
   font-weight: 300;
   margin-left: 8px;
@@ -228,4 +229,78 @@ li a img {
   -webkit-text-fill-color: transparent;
   font-size: 36px;
   margin: 0px;
+}
+
+/*Responsive behavior*/
+
+@media screen and (max-width: 680px) {
+
+  header {
+    height: 65px;
+    padding: 0px 25px;
+  }
+
+  main {
+    padding: 65px 0px 20px 0px;
+  }
+
+  section {
+    padding: 0px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    margin: 0;
+  }
+
+  .card {
+    display: block;
+    margin-bottom: 40px;
+    margin: 10px auto;
+    max-width: 85%;
+    min-width: 60%;
+  }
+
+  .profile-container {
+    height: 0px;
+    display: none;
+  }
+
+  .logo-container {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .logo-container img {
+    height: 28px;
+    padding-top: 15px;
+    padding-left: 12px;
+    width: 100px;
+  }
+
+  nav {
+    display: flex;
+    padding: 0px;
+    position: relative;
+  }
+
+  ul {
+    align-items: flex-start;
+    background-color: white;
+    flex-direction: column;
+    height: 175px;
+    width: 680px;
+    left: -25px;
+    padding-top: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+  }
+
+  li a {
+    font-size: 22px;
+    padding: 2px 0px 30px 30px;
+  }
 }
